@@ -15,7 +15,68 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Crypto Website</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <img src="./images/logo.png" alt="LOGO" class="logo" />
+        <a class="logo-title" href="#">crypter</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse nav-left position-relative"
+          id="navbarScroll"
+        >
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item nav-item-first-second">
+              <a class="nav-link active first-item" aria-current="page" href="#"
+                >Discover</a
+              >
+            </li>
+
+            <li class="nav-item second-item nav-item-first-second">
+              <a class="nav-link disabled">How it work</a>
+            </li>
+            <li class="nav-item">
+              <form class="form-search">
+                <input type="search" placeholder="Search" />
+                <button type="submit">Search</button>
+              </form>
+            </li>
+            <li class="nav-item nav-item-dot">
+              <img
+                src="./images/notification1.png"
+                alt=""
+                class="notification-icon"
+              />
+              <img src="./images/dotpng.png" alt="" class="dot-icon" />
+            </li>
+            <button class="btn-upload button-nav">Upload</button>
+            <button class="btn-wallet button-nav position-absolute top-0 end-0">
+              Connect Wallet
+            </button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+  </body>
 </html>
