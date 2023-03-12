@@ -16,6 +16,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 /* End of main features */
+
 /* Navbar */
 .navbar {
   height: 80px;
@@ -139,3 +140,74 @@ button[type="submit"] {
 }
 
 /* End of Navbar */
+
+/* Section 1 */
+.container {
+  text-align: center;
+}
+.container > p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #777e91;
+  margin-top: 128px;
+  margin-bottom: 8px;
+}
+
+.container > h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #23262f;
+}
+
+.btn-container {
+  width: 182px;
+  margin-top: 24px;
+}
+/* End of Section 1 */
+
+.container-all {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.container-2 {
+  margin-top: 128px;
+  display: flex;
+}
+.row-container {
+  width: 750px;
+  height: 800px;
+}
+.container-img {
+  padding: 0;
+  width: 640px;
+  height: 800px;
+  border-radius: 16px;
+}
+.col-container {
+  background-color: #3772ff;
+  width: 352px;
+  margin-left: 128px;
+  width: 460px;
+  justify-content: flex-end;
+}
+
+.section-3 {
+  margin-left: 0;
+  margin-right: 0;
+}
+.container-3 {
+  background-color: #3772ff;
+  margin-top: 136px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0;
+  margin-right: 0;
+}
